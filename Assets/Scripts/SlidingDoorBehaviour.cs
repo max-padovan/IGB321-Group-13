@@ -9,6 +9,7 @@ public class SlidingDoorBehaviour : MonoBehaviour
     public float slideSpeed = 2.0f;
     public GameObject interactionPanel;
     public GameObject player;
+    public Vector3 howfartoMoveDoor;
     private Vector3 openPosition;
     private Vector3 closedPosition;
 
@@ -16,7 +17,7 @@ public class SlidingDoorBehaviour : MonoBehaviour
     private void Start()
     {
         closedPosition = doorTransform.position;
-        openPosition = closedPosition + new Vector3(30, 0, 0);
+        openPosition = closedPosition + howfartoMoveDoor;
         HideInteractionPanel();
     }
 
