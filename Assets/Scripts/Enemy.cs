@@ -33,12 +33,13 @@ public class Enemy : MonoBehaviour {
     public GameObject explosion;
 
     // Use this for initialization
-    void Start () {
+    public void Start () 
+    {
         agent = GetComponent<NavMeshAgent>();
     }
 
     // Update is called once per frame
-    void Update() {
+    public void Update() {
 
         Behaviour();
 
@@ -49,7 +50,7 @@ public class Enemy : MonoBehaviour {
         }
     }
 
-    void Behaviour() {
+    public void Behaviour() {
 
         if (!player)
             player = GameObject.FindGameObjectWithTag("Player");
