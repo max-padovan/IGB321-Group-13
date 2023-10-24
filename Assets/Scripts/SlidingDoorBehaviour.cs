@@ -27,11 +27,13 @@ public class SlidingDoorBehaviour : MonoBehaviour
         // Check for player interaction (e.g., pressing a switch)
         if (isplayerCloseEnoughttoPanel())
         {
+            //Debug.Log("Close enough");
             ShowInteractionPanel();
 
             if (Input.GetKeyDown(KeyCode.E))
             {
                 isOpen = !isOpen;
+                //Debug.Log("Opening");
             }
         }
         else
