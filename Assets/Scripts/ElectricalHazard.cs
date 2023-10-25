@@ -4,17 +4,13 @@ using UnityEngine;
 
 public class ElectricalHazard : MonoBehaviour
 {
+    public GameObject player;
     private PlayerAvatar playerAvatar;
-    // Start is called before the first frame update
+
+
     void Start()
     {
         playerAvatar = FindObjectOfType<PlayerAvatar>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     private void OnTriggerEnter(Collider other)
