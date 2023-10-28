@@ -7,11 +7,12 @@ public class Firextinguisher : MonoBehaviour
 
     private float extRadius;
     public GameObject steamParticleEffect;
-    public GameObject playerAvatar;
+    private GameObject player;
     private float countdownTimer = 6.0f;
     // Start is called before the first frame update
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         steamParticleEffect.SetActive(false);
         extRadius = 3.0f;
     }
@@ -19,7 +20,7 @@ public class Firextinguisher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Vector3.Distance(this.transform.position, playerAvatar.transform.position) < extRadius)
+        if(Vector3.Distance(this.transform.position, player.transform.position) < extRadius)
         {
             steamParticleEffect.SetActive(true);
             Destroy(steamParticleEffect, countdownTimer);
