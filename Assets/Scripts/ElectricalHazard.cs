@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ElectricalHazard : MonoBehaviour
 {
-    public GameObject player;
     private PlayerAvatar playerAvatar;
 
 
@@ -17,7 +16,7 @@ public class ElectricalHazard : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerAvatar.moveSpeed = playerAvatar.moveSpeed * 0.75f;
+            playerAvatar.moveSpeed = playerAvatar.moveSpeed * 0.5f;
         }
     }
 
