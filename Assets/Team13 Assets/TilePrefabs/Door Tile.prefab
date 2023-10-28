@@ -607,6 +607,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2781663592684068236}
+  - component: {fileID: 9115128800259114671}
   m_Layer: 0
   m_Name: Door Container
   m_TagString: Untagged
@@ -630,6 +631,21 @@ Transform:
   - {fileID: 8998970038794506239}
   m_Father: {fileID: 4423495368452357725}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9115128800259114671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5131556020418257940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d81dd3b2e7f25248b91efb5214d3dff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 5826846505160852234, guid: d427e64317de1fd4f840e2ffff8acd70, type: 3}
+  openTime: 2
+  endPos: {x: 0, y: -10, z: 0}
 --- !u!1 &7910511744078516995
 GameObject:
   m_ObjectHideFlags: 0
