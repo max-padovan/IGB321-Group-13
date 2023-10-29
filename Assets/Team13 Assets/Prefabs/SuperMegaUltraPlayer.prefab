@@ -883,6 +883,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1488081936527076163}
     m_Modifications:
+    - target: {fileID: 2583394964569970234, guid: 0e9ed2b2735e04a419939b2a347dd3ec,
+        type: 3}
+      propertyPath: ammo
+      value: 999
+      objectReference: {fileID: 0}
+    - target: {fileID: 2583394964569970234, guid: 0e9ed2b2735e04a419939b2a347dd3ec,
+        type: 3}
+      propertyPath: fuel
+      value: 999
+      objectReference: {fileID: 0}
     - target: {fileID: 540870011079291646, guid: 7fa32f548507fa7458cebe4e7cb76a18,
         type: 3}
       propertyPath: m_Name
@@ -892,13 +902,13 @@ PrefabInstance:
         type: 3}
       propertyPath: flameStream
       value: 
-      objectReference: {fileID: 1973075987484898, guid: d59e0c577e29c2044bd8a172158bf804,
+      objectReference: {fileID: 1973075987484898, guid: af43640fa1a204c43ab794c1868c22fb,
         type: 3}
     - target: {fileID: 2583394964569970234, guid: 7fa32f548507fa7458cebe4e7cb76a18,
         type: 3}
       propertyPath: muzzleFlash
       value: 
-      objectReference: {fileID: 4137892037964710757, guid: ed037026df6f27242b5bb26ecc034ca4,
+      objectReference: {fileID: 1743301284569550, guid: ebdef35883a88ce4783dca2dbc7caeac,
         type: 3}
     - target: {fileID: 7404669889426978358, guid: 7fa32f548507fa7458cebe4e7cb76a18,
         type: 3}
@@ -949,16 +959,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2583394964569970234, guid: 0e9ed2b2735e04a419939b2a347dd3ec,
-        type: 3}
-      propertyPath: ammo
-      value: 999
-      objectReference: {fileID: 0}
-    - target: {fileID: 2583394964569970234, guid: 0e9ed2b2735e04a419939b2a347dd3ec,
-        type: 3}
-      propertyPath: fuel
-      value: 999
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
