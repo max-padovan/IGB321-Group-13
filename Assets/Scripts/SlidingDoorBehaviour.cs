@@ -16,6 +16,7 @@ public class SlidingDoorBehaviour : MonoBehaviour
     // Initialize the open and closed positions
     private void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player").gameObject;
         closedPosition = doorTransform.position;
         openPosition = closedPosition + howfartoMoveDoor;
         HideInteractionPanel();
