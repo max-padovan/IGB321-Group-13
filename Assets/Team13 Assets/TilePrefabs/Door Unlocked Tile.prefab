@@ -701,7 +701,7 @@ MonoBehaviour:
       m_FlipV: 0
       m_SwapUV: 0
       m_Fill: 1
-      m_Scale: {x: 1, y: 1}
+      m_Scale: {x: 0.125, y: 0.125}
       m_Offset: {x: 0, y: 0}
       m_Rotation: 0
       m_Anchor: 9
@@ -735,7 +735,7 @@ MonoBehaviour:
       m_FlipV: 0
       m_SwapUV: 0
       m_Fill: 1
-      m_Scale: {x: 1, y: 1}
+      m_Scale: {x: 0.125, y: 0.125}
       m_Offset: {x: 0, y: 0}
       m_Rotation: 0
       m_Anchor: 9
@@ -831,18 +831,18 @@ MonoBehaviour:
   - {x: -2, y: 0, z: 0}
   - {x: 10, y: 0, z: 0}
   m_Textures0:
-  - {x: 2, y: 0}
-  - {x: -10, y: 0}
-  - {x: 2, y: 10}
-  - {x: -10, y: 10}
+  - {x: 0.25, y: 0}
+  - {x: -1.25, y: 0}
+  - {x: 0.25, y: 1.25}
+  - {x: -1.25, y: 1.25}
   - {x: 0, y: 0}
   - {x: -1, y: 0}
   - {x: 0, y: 10}
   - {x: -1, y: 10}
-  - {x: 10, y: 0}
-  - {x: -2, y: 0}
-  - {x: 10, y: 10}
-  - {x: -2, y: 10}
+  - {x: 1.25, y: 0}
+  - {x: -0.25, y: 0}
+  - {x: 1.25, y: 1.25}
+  - {x: -0.25, y: 1.25}
   - {x: 1, y: 0}
   - {x: 0, y: 0}
   - {x: 1, y: 10}
@@ -891,11 +891,19 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 1309
+  m_VersionIndex: 1321
   m_IsSelectable: 1
-  m_SelectedFaces: 
-  m_SelectedEdges: []
-  m_SelectedVertices: 
+  m_SelectedFaces: 00000000
+  m_SelectedEdges:
+  - a: 0
+    b: 1
+  - a: 2
+    b: 0
+  - a: 1
+    b: 3
+  - a: 3
+    b: 2
+  m_SelectedVertices: 00000000010000000200000003000000
 --- !u!114 &7106098080425185302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -944,7 +952,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 54eb0a880c35ecd4fa56b3b6c33e8aaa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
