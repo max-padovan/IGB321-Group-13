@@ -190,7 +190,6 @@ GameObject:
   - component: {fileID: 4189475928449819437}
   - component: {fileID: 4739318878658096629}
   - component: {fileID: 7284719087364314796}
-  - component: {fileID: 1765401907140454673}
   - component: {fileID: 8752073704138415069}
   m_Layer: 0
   m_Name: Enemy Boss
@@ -298,29 +297,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1765401907140454673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7070838919701513403}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec62dada8c408834a8ff7945e57a77fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  health: 20
-  agroRange: 15
-  damage: 5
-  rotationSpeed: 1
-  targetRotation: {x: 0, y: 0, z: 0, w: 0}
-  laser: {fileID: 42834954922608830, guid: c6d9de29685532c4bb099601843391c6, type: 3}
-  laserMuzzle: {fileID: 5629574071545189814}
-  burning: {fileID: 0}
-  explosion: {fileID: 739467614375616774, guid: c431d54ee92739b4a94e92f96ef3bc7b,
-    type: 3}
 --- !u!114 &8752073704138415069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,7 +316,7 @@ MonoBehaviour:
   - {fileID: 5629574071545189814}
   - {fileID: 5796517422154788031}
   - {fileID: 8497023452610311193}
-  burning: {fileID: 0}
+  burning: {fileID: 2740126369829757847, guid: dd56ab5edb853f948b29b1e25205de49, type: 3}
   explosion: {fileID: 739467614375616774, guid: c431d54ee92739b4a94e92f96ef3bc7b,
     type: 3}
 --- !u!1 &8497023452610311193
