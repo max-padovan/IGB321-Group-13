@@ -999,6 +999,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7709175982122939930}
+  - component: {fileID: 7338403244555639008}
   m_Layer: 0
   m_Name: Fire Ext
   m_TagString: Untagged
@@ -1025,6 +1026,22 @@ Transform:
   - {fileID: 6234268952224252148}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7338403244555639008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2326151861413223078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899acceb26e8e8e44914722a0882fe1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  steamParticleEffect: {fileID: 1121192042590650, guid: e1b08032bec16ba4eb1ae23cbd572664,
+    type: 3}
+  playerAvatar: {fileID: 5826846505160852234, guid: d7a473cb7c7349642b4db0c78fa56c6c,
+    type: 3}
 --- !u!1 &3870699040544988634
 GameObject:
   m_ObjectHideFlags: 0
