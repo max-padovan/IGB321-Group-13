@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: ab2a0c3bbe67a894cb124757814dc05a
   - enabled: 1
-    path: Assets/Scenes/Max Scene.unity
+    path: Assets/Scenes/Max Reception.unity
     guid: f373112bbfbb909409789eaf190c71aa
   m_configObjects: {}
